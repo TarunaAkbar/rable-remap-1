@@ -14,7 +14,7 @@
     macros {
         Screenshoot: Screenshoot {
             compatible = "zmk,behavior-macro";
-            label = "new_macro";
+            label = "new_macro1";
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
@@ -26,7 +26,7 @@
         };
         copy: copy {
             compatible = "zmk,behavior-macro";
-            label = "new_macro";
+            label = "new_macro2";
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
@@ -38,7 +38,7 @@
         };
         paste: paste {
             compatible = "zmk,behavior-macro";
-            label = "new_macro";
+            label = "new_macro3";
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
